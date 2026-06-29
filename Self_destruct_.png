@@ -1,0 +1,14 @@
+![Self Destruct PNG](./self_destruct.png)
+
+1) Use imagemagick
+convert self_destruct.svg self_destruct.png
+
+2) Using inkscape 
+
+inkscape self_destruct.svg --export-type="png" --export-filename="self_destruct.png"
+
+3) commit and push
+
+git add self_destruct.png README.md
+git commit -m "Add PNG export for self-destruct image"
+git push origin main
